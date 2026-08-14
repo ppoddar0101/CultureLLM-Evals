@@ -14,7 +14,6 @@ Usage:
     python3 culturebank_generate_flash.py --country "France" --target_group "French"
     python3 culturebank_generate_flash.py --country "India" --target_group "Indian"
     python3 culturebank_generate_flash.py --country "Brazil" --target_group "Brazilian"
-    python3 culturebank_generate_flash.py --country "South Korea" --target_group "Korean"
 """
 
 import os

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 """
+**This is specific to Gemini models**
 CultureLLM — Stage 1: Generate model responses (Gemini 2.5 Flash)
 ==================================================================
 Loads CultureBank, filters to target group, generates responses

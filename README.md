@@ -36,6 +36,8 @@ Question counts reflect removal of 3 morality/surveillance questions (Q196-Q198)
 All benchmarks are also run on **Gemini 2.5 Flash** as a commercial baseline.
 
 ## Repository Structure
+
+```
 CultureLLM/
 ├── README.md
 ├── requirements.txt
@@ -57,6 +59,8 @@ CultureLLM/
 ├── utils/
 │ └── llm_response.py # Shared model loading utilities
 └── data/ # Seed data (see data/README.md)
+```
+
 Each eval directory contains a local-model script, a Gemini API variant, and example SLURM job scripts.
 
 ## Setup

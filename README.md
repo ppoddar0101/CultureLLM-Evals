@@ -114,10 +114,3 @@ python eval/culturebank/culturebank_generate_flash.py \
 ## Environment
 
 Experiments were run on USC CARC with NVIDIA A100 80GB and A6000 GPUs.
-
-## Acknowledgments
-
-- [CultureLLM](https://github.com/LLM-Culture/CultureLLM)
-- [SimBench](https://github.com/pitehu/SimBench_release)
-- [CultureBank](https://github.com/SALT-NLP/CultureBank)
-- [Personalized RewardBench](https://github.com/Martin-qyma/Personalized-RewardBench)

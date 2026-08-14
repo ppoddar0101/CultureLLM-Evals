@@ -24,9 +24,9 @@ from peft import PeftModel
 
 BASE_MODEL_NAME  = "meta-llama/Llama-3.1-8B-Instruct"
 ADAPTER_PATH     = "models/culturellm-france-8b-morality"
-USE_ADAPTER      = False
+USE_ADAPTER      = False  # Change to True when you want to use the adapter 
 
-TARGET_GROUP     = "French"
+TARGET_GROUP     = "French" # Can be modified to whichever target group you are interested in
 
 OUTPUT_DIR       = "outputs/culturebank"
 os.makedirs(OUTPUT_DIR, exist_ok=True)

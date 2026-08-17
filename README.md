@@ -63,6 +63,10 @@ CultureLLM/
 
 Each eval directory contains a local-model script, a Gemini API variant, and example SLURM job scripts.
 
+## Model Weights
+
+Pre-trained LoRA adapters for all 5 countries are available on [Google Drive](https://drive.google.com/drive/folders/1Xyg-K1sCVyg-CrtGWZ-Phkn0FitQrRku?usp=drive_link). Each zip contains the adapter weights (~150MB), not the full model — you still need the base `meta-llama/Llama-3.1-8B-Instruct` model to run inference.
+
 ## Setup
 
 ```bash
